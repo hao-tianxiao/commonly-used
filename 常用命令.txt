@@ -1,0 +1,13 @@
+sudo apt-get install ros-melodic-<功能包> //下载功能包
+sudo chmod 777 /dev/ttyUSB* //打开串口权限
+catkin_make -DCATKIN_WHITELIST_PACKAGES="package1;package2" //编译部分功能包
+克隆现有存储库$ git clone ssh://user@domain.com/repo.git
+创建一个新的本地存储库$ git init
+将所有当前更改添加到下一个提交$ git add .
+提交跟踪文件中的所有本地更改$ git commit -a
+显示所有提交，从最新开始$ git log
+下载更改并直接合并/集成到HEAD中$ git pull
+在远程上发布本地更改$ git push
+echo 'hello linux' >> /data/hello.txt  这个在企业里很常用：单行内容追加到文件结尾。
+ps aux 查看进程状态
+kill -9 进程代号   终止指定代号的进程
